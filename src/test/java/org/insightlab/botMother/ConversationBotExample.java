@@ -14,7 +14,7 @@ public class ConversationBotExample {
 	public static void main(String[] args) {
 		BotService.start();
 		
-		ConversationBot bot = new ConversationBot("431452517:AAGa-6fX5H5mj9x0rFa4SOHD-qHf8eyAgbA");
+		ConversationBot bot = new ConversationBot("");
 		
 		bot.addCommand(new PingCommand());
 		bot.addCommand(new EchoMessage());
